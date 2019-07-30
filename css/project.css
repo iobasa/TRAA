@@ -1,0 +1,670 @@
+
+#hero1 {
+  margin-top: 20px;
+  background: url('../images/heroimage_project.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.heroText1 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 320px;
+  z-index: +1;
+}
+
+.heroText1 h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-style: black;
+  font-size: 70px;
+  text-align: center;
+	color: #b7aeae;
+  text-shadow: 1px 1px 2px black;
+}
+
+.heroText1 h2 {
+  display: none;
+}
+
+
+#trout {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 40px;
+  width: 100%;
+}
+
+#trout img{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  float: right;
+}
+
+#trout h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#trout p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#trout a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+#troutText {
+  margin-top: 30px;
+  margin-left: ;
+  width: 100%;
+}
+
+
+#salmonid {
+  margin-top: 24px;
+  margin-bottom: 97px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#salmonid img{
+  max-width: 100%;
+  height: 400px;
+}
+
+#salmonid h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.border {
+  margin-top: 20px;
+  width: 60px;
+  height: 2px;
+  border-bottom: solid 2px #00a651;
+}
+
+#salmonid p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#salmonid a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+#salmonidText {
+  margin-top: 50px;
+  margin-left: 2%;
+  width: 100%;
+}
+
+.pArch {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  text-align: center;
+}
+
+#stream {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-top: 40px;
+  width: 1280px;
+  height: 600px;
+}
+
+#stream img{
+  width: 640px;
+  height: 600px;
+  display: flex;
+  float: right;
+}
+
+#stream h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#stream p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#stream a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+#streamText {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+#walleye {
+  margin-bottom: 97px;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 1280px;
+  height: 600px;
+}
+
+#walleye img{
+  width: 640px;
+  height: 600px;
+
+  display: flex;
+  float: right;
+}
+
+#walleye h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#walleye p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#walleye a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+#wallText {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+.pastEvents  {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.right {
+margin-bottom: 70px;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 300px;
+}
+
+.right img{
+  width: 100%;
+  height: 300px;
+}
+
+.right h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.right p {
+  line-height: 30px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.right a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+.rightText {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.left {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left img{
+  width: 100%;
+  height: 400px;
+}
+
+.left h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.left p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.left a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+.leftText {
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+}
+
+#btn {
+  margin-left: 550px;
+  margin-bottom: 60px;
+}
+
+#btn a {
+	margin-top: 70px;
+	font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #00a651;
+}
+
+#btn a:hover {
+  color: white;
+  background-color: grey;
+}
+
+@media screen and (min-width: 600px){
+
+  #hero1 {
+    margin-top: 20px;
+    background: url('../images/heroimage_project.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+  }
+
+  .heroText1 {
+    width: 944px;
+    height: 350px;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 320px;
+    z-index: +1;
+  }
+
+  .heroText1 h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: black;
+    font-size: 70px;
+    text-align: center;
+  	color: #b7aeae;
+  }
+
+  .heroText1 h2 {
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: black;
+    font-size: 30px;
+    text-align: center;
+  	color: white;
+    text-shadow: 1px 1px black;
+    margin-bottom: 50px;
+  }
+
+
+  #trout {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 40px;
+    width: 1280px;
+    height: 600px;
+  }
+
+  #trout img{
+    width: 640px;
+    height: 600px;
+    display: flex;
+    float: right;
+  }
+
+  #trout h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  #trout p {
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  #trout a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #troutText {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+  }
+
+
+  #salmonid {
+    margin-top: 24px;
+    margin-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 100%;
+    height: 600px;
+  }
+
+  #salmonid img{
+    max-width: 100%;
+    height: 600px;
+  }
+
+  #salmonid h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  .border {
+    margin-top: 20px;
+    width: 60px;
+    height: 2px;
+    border-bottom: solid 2px #00a651;
+  }
+
+  #salmonid p {
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  #salmonid a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #salmonidText {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .pArch {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #stream {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 40px;
+    width: 1280px;
+    height: 600px;
+  }
+
+  #stream img{
+    width: 640px;
+    height: 600px;
+    display: flex;
+    float: right;
+  }
+
+  #stream h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  #stream p {
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  #stream a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #streamText {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+  }
+
+  #walleye {
+    margin-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 1280px;
+    height: 600px;
+  }
+
+  #walleye img{
+    width: 640px;
+    height: 600px;
+
+    display: flex;
+    float: right;
+  }
+
+  #walleye h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  #walleye p {
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  #walleye a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #wallText {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .pastEvents  {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .right {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 1280px;
+  height: 400px;
+  }
+
+  .right img{
+    width: 470px;
+    height: 400px;
+    margin-left: 50px;
+    display: flex;
+    float: left;
+  }
+
+  .right h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  .right p {
+    line-height: 30px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .right a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  .rightText {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 600px;
+    height: 500px;
+  }
+
+  .left {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 1280px;
+    height: 400px;
+  }
+
+  .left img{
+    width: 470px;
+    height: 400px;
+    margin-right: 50px;
+    display: flex;
+    float: right;
+  }
+
+  .left h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  .left p {
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .left a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  .leftText {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 600px;
+    height: 500px;
+  }
+
+  #btn {
+    margin-left: 550px;
+    margin-bottom: 60px;
+  }
+
+  #btn a {
+  	margin-top: 70px;
+  	font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  #btn a:hover {
+    color: white;
+    background-color: grey;
+  }
+}

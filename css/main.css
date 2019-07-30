@@ -1,0 +1,687 @@
+body {
+  margin: 0 auto;
+  background-color: white;
+}
+
+.siteContainer {
+  margin: 0 auto;
+  background-color: white;
+  max-width: 1280px;
+}
+
+.hidden
+{
+  display: none;
+}
+
+#mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#logo img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+#mainNav button {
+  background: url(../images/burger.svg) center no-repeat;
+  border: 0;
+  width: 35px;
+  height: 35px;
+  margin-top: 20px;
+  transition: all 400ms ease;
+}
+
+
+#burgerCon {
+  margin-bottom: 20px;
+  position: fixed;
+  top: 85px;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.9);
+
+  /* this should be off by default and  */
+  display: none;
+}
+
+.show-mobile-nav {
+  display: block !important;
+}
+
+#burgerCon li {
+  padding: 20px;
+  border-top: thin 1px black;
+  text-align: center;
+}
+
+#burgerCon a {
+  text-decoration: none;
+  color: #8ea86a;
+}
+
+#burgerCon.slideToggle { display: block; }
+
+#mainNav button.expanded {
+  /* browser prefixes for transform */
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+
+  /* default transform */
+  transform: rotate(90deg);
+}
+
+#mainNav li a {
+  display: block;
+  color: #8ea76d;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#mainNav li { border-bottom: 1px solid #efefef; }
+
+#mainNav li:first-child { border-top: 1px solid #efefef; }
+
+#mainNav li:last-child { margin-bottom: 10px; }
+
+#mainNav li a:hover { background-color: #efefef; }
+
+
+#supporters {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  background-image: linear-gradient(#e4e2e2, white);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#supportersTitle h3 {
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#supportersLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#supportersLogo img {
+  width: 100%;
+
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+	filter: grayscale(100%);
+
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#supportersLogo img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  filter: grayscale(0%);
+}
+
+#angling {
+  width: 50% !important;
+}
+
+
+#Button {
+  width: 100%;
+  height: 240px;
+  background-color: #00a651;
+}
+
+#bottomBut {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#bottomBut a{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  margin-left: 13%;
+  margin-right: 15%;
+  margin-bottom: 20px;
+  background-color: #000;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bottomBut a:hover {
+  background-color: white;
+  color: #000;
+}
+
+#border {
+  margin-top: 20px;
+  width: 60px;
+  height: 2px;
+  border-bottom: solid 2px #00a651;
+}
+
+.border2 {
+  width: 60px;
+  height: 2px;
+  background-color: #464646;
+  color: #464646;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainFooter
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #252525;
+  justify-content: flex-start;
+  height: 350px;
+  width: 100%;
+}
+
+.LogoNav
+{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.border {
+  margin-top: 20px;
+  width: 60px;
+  height: 2px;
+  border-bottom: solid 2px #00a651;
+}
+
+.border1 {
+  margin-top: 100px;
+  width: 60px;
+  height: 2px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 2px #00a651;
+}
+
+.logoFooter
+{
+  width: 100%;
+  margin-top: 70px;
+	display: flex;
+	flex-direction: row;
+}
+
+.footerNav
+{
+  display: none;
+}
+
+.footerNav li {
+	list-style: none;
+	display: inline;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.footerNav a
+{
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+  background-color: none;
+}
+
+.footerNav a:hover
+{
+	text-decoration: none;
+	color: white;
+  border-bottom: solid 1px #fff;
+}
+
+.bottomLogo {
+  margin-top: 50px;
+	width: 100%;
+	height: 200px;
+  display: block;
+}
+
+.bottomLogo img {
+  width: 100%;
+  display: block;
+}
+
+.socialMedia
+{
+  width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#iconNav{
+  list-style: none;
+  text-decoration: none;
+}
+
+#iconNav img {
+  width: 100%;
+}
+
+#iconNav li{
+  display: inline;
+}
+
+#iconNav li a{
+  filter: grayscale(100%);
+}
+
+#iconNav li a:hover{
+  filter: grayscale(0%);
+}
+
+#facebook {
+  width: 100%;
+}
+
+.mail{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: black;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 70px;
+  margin-right: 5px;
+}
+
+.mail img {
+  width: 15%;
+}
+
+#address {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+  width: 100%;
+  color: white;
+}
+
+#address img{
+  margin-right: 10px;
+}
+
+#m-address {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+#m-address img{
+  margin-right: 10px;
+}
+
+#copyright {
+  width: 50%;
+  font-size: 10px;
+  margin-left: 50px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .siteContainer {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 1280px;
+  }
+
+  .hidden
+  {
+    display: none;
+  }
+
+
+  #mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  #logo img {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  #mainNav
+  {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  	font-size: 20px;
+  	margin-top: 100px;
+  	display: flex;
+  	flex-direction: row;
+  }
+
+  #mainNav li
+  {
+  	list-style: none;
+  	display: inline;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  #mainNav a
+  {
+  	text-decoration: none;
+  	padding: 5px;
+  	color: black;
+  }
+
+  #mainNav a:hover
+  {
+  	text-decoration: none;
+  	color: black;
+    border-bottom: solid 1px #000;
+  }
+
+  #button {
+    display: none;
+  }
+
+  #burgerCon { display: flex; flex-direction: column; margin: 0; }
+
+  #supporters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    background-image: linear-gradient(#e4e2e2, white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #supportersTitle h3 {
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  #supportersLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #supportersLogo img {
+    width: 200px;
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  	filter: grayscale(100%);
+
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #supportersLogo img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    filter: grayscale(0%);
+  }
+
+
+  #Button {
+    height: 130px;
+    background-color: #00a651;
+  }
+
+  #bottomBut {
+    padding-top: 45px;
+  }
+
+  #bottomBut a{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 300px;
+    background-color: #000;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #bottomBut a:hover {
+    background-color: white;
+    color: #000;
+  }
+
+  #border {
+    margin-top: 20px;
+    width: 60px;
+    height: 2px;
+    border-bottom: solid 2px #00a651;
+  }
+
+  .border2 {
+    width: 60px;
+    height: 2px;
+    background-color: #464646;
+    color: #464646;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mainFooter
+  {
+    display: flex;
+    flex-direction: row;
+    background-color: #252525;
+    justify-content: flex-start;
+    height: 400px;
+    width: 100%;
+  }
+
+  .logoNav
+  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+  }
+
+  .border {
+    margin-top: 20px;
+    width: 60px;
+    height: 2px;
+    border-bottom: solid 2px #00a651;
+  }
+
+  .border1 {
+    margin-top: 100px;
+    width: 60px;
+    height: 2px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 2px #00a651;
+  }
+
+  .logoFooter
+  {
+    margin-top: 70px;
+    margin-left: 120px;
+  	display: flex;
+  	flex-direction: row;
+  	text-align: center;
+  }
+
+  .footerNav
+  {
+    margin-left: 120px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  	font-size: 19px;
+  	margin-top: 50px;
+    width: 741px;
+  	height: 60px;
+  	display: flex;
+  	flex-direction: row;
+  }
+
+  .footerNav li {
+  	list-style: none;
+  	display: inline;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .footerNav a
+  {
+  	text-decoration: none;
+  	padding: 5px;
+  	color: white;
+    background-color: none;
+  }
+
+  .footerNav a:hover
+  {
+  	text-decoration: none;
+  	color: white;
+    border-bottom: solid 1px #fff;
+  }
+
+  .bottomLogo {
+  	width: 200px;
+  	height: 200px;
+  }
+
+  .socialMedia
+  {
+    height: 60px;
+  	margin-left: 70px;
+    margin-top: 50px;
+  	display: flex;
+  	flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  .socialMedia h3 {
+  	width: 60px;
+  	height: 60px;
+  	margin: 10px;
+  	background-color: #636363;
+  }
+
+  #iconNav{
+    margin-top: 70px;
+    list-style: none;
+    margin-right: 50px;
+    text-decoration: none;
+  }
+
+  #iconNav img {
+    width: 45px;
+    height: 45px;
+  }
+
+  #iconNav li{
+    display: inline;
+    margin-right: 10px;
+  }
+
+  #iconNav li a{
+    filter: grayscale(100%);
+  }
+
+  #iconNav li a:hover{
+    filter: grayscale(0%);
+  }
+
+  #facebook {
+    width: 45%;
+  }
+
+  #angling {
+    width: 6% !important;
+  }
+
+  .mail{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: black;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-right: 10px;
+  }
+
+  #address {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    color: white;
+  }
+
+  #address img{
+    margin-right: 10px;
+  }
+
+  #m-address {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+
+  #m-address img{
+    margin-right: 10px;
+  }
+
+  #copyright {
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+}
